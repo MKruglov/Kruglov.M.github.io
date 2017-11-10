@@ -1,0 +1,100 @@
+body {
+    background:  #FFE4E1;
+}
+
+.MainMenu {
+    display: table;
+    position: fixed;
+    z-index: 50;
+    width: 100%;
+    justify-content: space-around;
+    top: 0;
+    background: #FFE4E1;
+}
+
+.MainMenu a {
+    display: table-cell;
+    height: 50px;
+    width: 90px;
+    line-height: 50px;
+    text-decoration:none;
+    text-align: center;
+    color: #1E90FF;
+}
+.MainMenu a:hover {
+    background: #E0FFFF;
+}
+
+.profile {
+    background: #FFC0CB;
+    display: flex;
+    margin-top:50px;
+    flex-direction: row;
+    justify-content: left;
+    padding: 10px;
+    position: relative;
+}
+
+.main-photo {
+    height: 200px;
+    width: 200px;
+    background: white;
+	position: left;
+}
+.views {
+	height: 200px;
+	width: 90%;
+	background: #ffffff;
+	margin-left:10px;
+}
+
+.wall
+{
+	background-color: #FFC0CB;
+	margin-top : 10px;
+	padding: 10px;
+
+}
+
+.post
+{
+	padding: 10px;
+	background-color: white;
+	margin-top : 2px;
+	align-items : center;
+}
+
+.post img
+{
+	width:100%;
+	align:center;
+}
+
+.post h
+{
+	font-size:20px;
+	color:#0000ff
+}
+
+
+ @media screen and (min-width:550px){
+     .MainMenu .MainMenuItemPic {
+         display: none;
+     }
+ }
+
+
+
+@media screen and (min-width:50px) and (max-width:550px){
+    .MainMenu .MainMenuItem {
+        display: none;
+    }
+
+    .MainMenu .MainMenuItemPic img{
+        height: 80%;
+        width: 90%;
+    }
+
+}
+
+
