@@ -1,0 +1,21 @@
+﻿
+body {
+	/*background-color: #e1f5fe;*/
+}
+.slider {
+	width: 100%;
+}
+
+/* .vk-img:hover { */
+	/* background-color: lightgrey; */
+/* } */
+.materialboxed {
+	width: 100%;
+}
+
+@font-face {
+	font-family: "Raleway";
+	src: url("../fonts/Raleway-v4020-Thin.otf") format("truetype");
+	font-style: normal; 
+	font-weight: normal;
+}

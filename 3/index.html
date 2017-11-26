@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-widt0h, initial-scale=1.0" charset="utf-8" />
+</head>
+
+<body class=" light-blue lighten-3">
+
+    <div class="navbar-fixed">
+        <nav class="blue">
+            <div class="nav-wrapper">
+                <a href="#" class="brand-logo">21 век</a>
+                <ul id="nav-mobile" class="right hide-on-med-and-down">
+                    <li><a href="#!">Порадоваться жизни в настоящем</a></li>
+                    <li><a href="#!">Поужасаться прошлому</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+	
+    <div class="carousel carousel-slider center" data-indicators="true">
+		
+		<div class="carousel-fixed-item center">
+		<a class="btn waves-effect blue white-text darken-text-2" href="#contacts">Отправиться в будущее</a>
+		</div>
+		
+        <a class="carousel-item" href="#">
+		<img src="http://www.pbs.org/wgbh/nova/next/wp-content/uploads/2013/10/nif.jpg" width="800px" height="600px">
+		</a> 
+	
+		
+		
+		<a class="carousel-item" href="#">
+		<img src="https://autorevue.at/files/uploads/2012/05/Mycopter-das-fliegendes-Auto-1.jpg" width="800px" height="600px"></a>
+         
+		<a class="carousel-item" href="#">
+		<img src="http://www.virtualreality24.ru/wp-content/uploads/2015/08/era_robototehniki.jpg" width="800px" height="600px"></a>
+    </div>
+	
+    <div class="container">
+            <div class="row">
+                <div class="col s3">
+                    <div class="icon-block">
+                        <h2 class="center white-text"><i class="medium material-icons">accessible</i></h2>
+                        <h5 class="center white-text">Медицина</h5>
+
+                        <p class="light white-text">Сегодня, медицина достигла невероятных результатов. В будущем все будет еще прекраснее.</p>
+                    </div>
+                </div>
+
+                <div class="col s5">
+                    <div class="icon-block">
+                        <h2 class="center white-text"><i class="medium material-icons">brush</i></h2>
+                        <h5 class="center white-text">Самовыражение</h5>
+
+                        <p class="light white-text">21 век дарит бесконечное пространство для самовыражения всем и каждому!</p>
+                    </div>
+                </div>
+
+                <div class="col s4">
+                    <div class="icon-block">
+                        <h2 class="center white-text"><i class="medium material-icons">explore</i></h2>
+                        <h5 class="center white-text">Безопасность и разнообразность</h5>
+
+                        <p class="light white-text">Жить еще никогда не было так безопасно и интересно как сегодня
+					</p>
+                    </div>
+                </div>
+    </div>
+	</div>
+
+
+    <div class="parallax-container" style="height:600">
+        <div class="parallax">
+            <img src="http://scirraconstruct.ru/blog/wp-content/uploads/2015/04/inf_techn1.jpg">
+        </div>
+    </div>
+
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col s12 m12 center">
+                <h4 class="center white-text">Светлое будущее</h4>
+                <p class="left-align white-text">Сегодня очень многие говорят о проблемах общества и о минусах, которые несет нам цивилизация. 
+				Однако ни в коем случае нельзя забывать, что мы живем в лучшем из времен, 
+				которые когда-либо были,и с каждым годом комфорт и продолжительность жизни только растет.</p>
+            </div>
+        </div>
+    </div>
+	
+ <h3 class="center light black-text">
+			Отставьте ваши контакты, чтобы будущее наступило побыстрее!</h3>
+			 <h5 class="center light white-text">
+			(мы вообще не знаем как это связано, у нас лапки)</h5>
+	<a name="contacts"></a>
+  <div class="col s9 offset-s1">
+  <form>
+  <div class="row">
+	<div class="input-field">
+		<input type="text" class="validate" name="name" id="name_user">
+		<label for="name_user">Имя</label>
+	</div>
+	<div class="input-field">
+		<input type="email" class="validate" name="email" id="email-user">
+		<label for="email-user" data-error="wrong" data-success="right">E-mail</label>
+	</div>
+	<div class="input-field">
+		<input type="tel" class="validate" name="phone_num" id="phone_num_user">
+		<label for "phone_num_user">Телефон</label>
+	</div>
+	<div class="input-field">
+		<textarea class="materialize-textarea" rows="3" name="other_information" id="other_information_user"></textarea>
+		<label for="other_information_user">Доп. информация</label>
+	</div>
+	<p>
+		<input class="filled-in blue" type="checkbox" name="get_messages" id="get_msg_user" checked="checked">
+		<label for="get_msg_user">Присылать мне футуристичные новости
+	</p>
+	<button type="submit" class="btn btn-default">Отправить</button>
+  </div>
+  </form>
+  </div>
+	
+
+
+  
+
+    <!--Import jQuery before materialize.js-->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script>
+        $('.carousel.carousel-slider').carousel({ fullWidth: true });
+    </script>
+    <script>
+        $(document).ready(function(){
+      $('.parallax').parallax();
+    });
+    </script>
+</body>
+</html>
